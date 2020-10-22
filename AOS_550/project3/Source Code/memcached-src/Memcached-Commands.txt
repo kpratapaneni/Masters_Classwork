@@ -1,0 +1,27 @@
+#steps to install memcached
+sudo apt install memcached
+
+sudo vim /etc/memcached.conf 
+	replace the below line at line number  35
+	-l 127.0.0.1
+	with 
+	-l 0.0.0.0
+
+sudo systemctl stop memcached
+sudo systemctl start memcached
+
+#step to install memcached python library
+pip3 install pymemcache
+
+#To run our program
+To find latency:
+Run first followers:
+python3 memcached-latency.py follower memcached.conf
+Run leader and start the process
+python3 memcached-latency.py leader memcached.conf peer.conf
+
+To find throughput:
+Run first followers:
+python3 memcached-throughput.py follower memcached.conf
+Run leader and start the process
+python3 memcached-throughput.py leader memcached.conf peer.conf

@@ -1,0 +1,179 @@
+1-NODE
+------------------
+NUM_OF_OPS = 1000
+insert
+Throughput 16065.547433528796 OPs/s
+Insert Latency 4.1235000000000326e-05 secs
+lookup
+Throughput 12607.001928871296 OPs/s
+Lookup Latency 7.931700000000072e-05 secs
+delete
+Throughput 47424.83164184767 OPs/s
+Delete Latency 1.9043000000000275e-05 secs
+
+Overall latency 0.03135615935
+--------------
+NUM_OF_OPS = 10000
+insert
+Throughput 25710.84046166385 OPs/s
+Insert Latency 3.9764199999999764e-05 secs
+lookup
+Throughput 13611.423795763309 OPs/s
+Latency 8.099820000000057e-05 secs
+delete
+Throughput 36962.29107064972 OPs/s
+Latency 3.3301100000000114e-05 secs
+
+---------------
+NUM_OF_OPS = 100000
+insert
+Throughput 27459.18261152753 OPs/s
+Latency 4.1328459999997696e-05 secs
+lookup
+Throughput 13091.404184012777 OPs/s
+Latency 7.067564999999827e-05 secs
+delete
+Throughput 32909.719424896066 OPs/s
+Latency 3.223519999997445e-05 secs
+---------------
+
+2-NODE
+------------------
+NUM_OF_OPS = 1000
+insert
+Overall Insert throughput:9704.592213035208 OPs/s
+Overall Insert Latency:4.41e-07 seconds
+lookup
+Overall Lookup throughput:3845.251690949431 OPs/s
+Overall Lookup Latency:2.72e-07 seconds
+delete
+Overall Delete throughput:20334.70931533034 OPs/s
+Overall Delete Latency:6.75e-07 seconds
+
+Overall throughput:11294.851073104992 OPs/s
+Overall Latency:4.626666666666667e-07 seconds
+--------------
+NUM_OF_OPS = 10000
+insert
+Overall Insert throughput:17858.418458461318 OPs/s
+Overall Insert Latency:7.13e-08 seconds
+lookup
+Overall Lookup throughput:2453.521711458977 OPs/s
+Overall Lookup Latency:3.63e-08 seconds
+delete
+Overall Delete throughput:27566.663083000465 OPs/s
+Overall Delete Latency:8.630000000000001e-08 seconds
+
+
+Overall throughput:15959.534417640252 OPs/s
+Overall Latency:6.463333333333334e-08 seconds
+---------------
+NUM_OF_OPS = 100000
+insert
+Overall Insert throughput:19691.33439509008 OPs/s
+Overall Insert Latency:1.467e-08 seconds
+lookup
+Overall Lookup Latency:6.9e-09 seconds
+Overall Lookup throughput:3365.375182626291 OPs/s
+delete
+Overall Delete throughput:28455.24985132132 OPs/s
+Overall Delete Latency:1.049e-08 seconds
+
+Overall throughput:17170.653143012565 OPs/s
+Overall Latency:1.0686666666666666e-08 seconds
+---------------
+
+
+4-NODE
+------------------
+NUM_OF_OPS = 1000
+insert
+Overall Insert throughput:6870.019236053861 OPs/s
+Overall Insert Latency:1.784e-06 seconds
+lookup
+Overall Lookup throughput:1875.8136341638187 OPs/s
+Overall Lookup Latency:1.04e-06 seconds
+delete
+Overall Delete throughput:10103.561505430665 OPs/s
+Overall Delete Latency:2.399e-06 seconds
+
+Overall throughput:6283.131458549448 OPs/s
+Overall Latency:1.741e-06 seconds
+--------------
+NUM_OF_OPS = 10000
+insert
+Overall Insert throughput:9766.407075566598 OPs/s
+Overall Insert Latency:2.009e-07 seconds
+lookup
+Overall Lookup throughput:1990.2010461292778 OPs/s
+Overall Lookup Latency:1.034e-07 seconds
+delete
+Overall Delete throughput:14733.312313807766 OPs/s
+Overall Delete Latency:2.5399999999999997e-07 seconds
+
+Overall throughput:8829.973478501213 OPs/s
+Overall Latency:1.861e-07 seconds
+---------------
+NUM_OF_OPS = 100000
+insert
+Overall Insert throughput:11160.437765939281 OPs/s
+Overall Insert Latency:1.992e-08 seconds
+lookup
+Overall Lookup throughput:2499.704534923972 OPs/s
+Overall Lookup Latency:1.268e-08 seconds
+delete
+Overall Delete throughput:16310.46247663934 OPs/s
+Overall Delete Latency:2.802e-08 seconds
+
+Overall throughput:9990.201592500865 OPs/s
+Overall Latency:2.0206666666666664e-08 seconds
+---------------
+
+
+8-NODE
+------------------
+NUM_OF_OPS = 1000
+insert
+Overall Insert throughput:4375.467628102753 OPs/s
+Overall Insert Latency:5.3479999999999994e-06 seconds
+lookup
+Overall Lookup throughput:1555.2341404998524 OPs/s
+Overall Lookup Latency:3.571e-06 seconds
+delete
+Overall Delete throughput:6706.278417854795 OPs/s
+Overall Delete Latency:6.847e-06 seconds
+
+Overall throughput:4212.326728819134 OPs/s
+Overall Latency:5.255333333333334e-06 seconds
+--------------
+NUM_OF_OPS = 10000
+insert
+Overall Insert throughput:6047.192288620394 OPs/s
+Overall Insert Latency:3.853e-07 seconds
+lookup
+Overall Lookup throughput:1754.7852555221775 OPs/s
+Overall Lookup Latency:3.315e-07 seconds
+delete
+Overall Delete throughput:8341.007059828376 OPs/s
+Overall Delete Latency:6.418e-07 seconds
+
+
+Overall throughput:5380.994867990316 OPs/s
+Overall Latency:4.528666666666667e-07 seconds
+---------------
+NUM_OF_OPS = 100000
+insert
+Overall Insert throughput:7377.743958199474 OPs/s
+Overall Insert Latency:8.705000000000002e-08 seconds
+lookup
+Overall Lookup throughput:2109.474112322746 OPs/s
+Overall Lookup Latency:2.79e-08 seconds
+delete
+Overall Delete throughput:8976.989462450689 OPs/s
+Overall Delete Latency:6.361e-08 seconds
+
+Overall throughput:6154.735844324303 OPs/s
+Overall Latency:5.952e-08 seconds
+---------------
+
+
