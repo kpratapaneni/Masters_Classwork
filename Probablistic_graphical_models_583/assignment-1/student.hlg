@@ -1,0 +1,94 @@
+Wed Feb 12 19:55:21 2020
+
+
+Moral links:
+
+    Marrying Difficulty and Intelligence
+
+
+Triangulating prime component with 2 members:
+    SAT, Intelligence
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    Letter, Grade
+This component is a clique of cost 6
+
+Triangulating prime component with 3 members:
+    Grade, Intelligence, Difficulty
+This component is a clique of cost 12
+
+
+Total cost of triangulation for all prime components is 22
+
+
+Elimination sequence:
+
+    Letter
+    Difficulty
+    Grade
+    SAT
+    Intelligence
+
+
+Cliques:
+
+Clique 3, 2 members, table size = 4:
+    Intelligence, SAT
+
+Clique 2, 3 members, table size = 12:
+    Intelligence, Grade, Difficulty
+
+Clique 1, 2 members, table size = 6:
+    Grade, Letter
+
+Total clique table size: 22
+
+
+The junction forest:
+
+Creating junction tree with clique 3 as root ...
+
+Cliques 2 and 3 linked, separator has 1 member and table size = 2:
+    Intelligence
+
+Cliques 1 and 2 linked, separator has 1 member and table size = 3:
+    Grade
+
+
+Assignment of potentials to cliques:
+
+    Node Letter assigned to clique 1
+    Node SAT assigned to clique 3
+    Node Grade assigned to clique 2
+    Node Intelligence assigned to clique 3
+    Node Difficulty assigned to clique 2
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Letter:
+	weak       0.497664
+	strong     0.502336
+
+    SAT:
+	low        0.725
+	high       0.275
+
+    Grade:
+	a          0.362
+	b          0.2884
+	c          0.3496
+
+    Intelligence:
+	low        0.7
+	high       0.3
+
+    Difficulty:
+	easy       0.6
+	difficult  0.4
