@@ -1,0 +1,57 @@
+What is the input state is final state?
+What to print for to_move?
+
+# while(True):
+# 	pathIndex = -1
+# 	rowCount = 1
+# 	colCount = 1
+# 	traveledPathCost = 0
+# 	for i, strVal in enumerate(listObj):
+# 		if(rowCount > rowVal):
+# 			break
+
+# 		if(gameState.to_move == strVal):
+# 			gameState = ttt.result(gameState, (rowCount, colCount))
+# 			pathIndex = i
+# 			break
+
+# 		if(colCount == colVal):
+# 			colCount = 1
+# 			rowCount += 1
+# 		else:
+# 			colCount += 1
+# 			continue
+# 		traveledPathCost += 1
+# 		if(traveledPathCost == 9):
+# 			break
+# 	if(pathIndex > -1):
+# 		listObj[pathIndex] = "-"
+# 	else:
+# 		break
+
+# ttt.display(gameState)
+# print(xMoves)
+# print("oMoves", oMoves)
+
+gameState = ttt.initial
+
+# move_to_do = minimax_decision(gameState, ttt)
+# tempState = ttt.result(gameState, move_to_do)
+# print(gameState)
+# print(move_to_do)
+# print(tempState)
+# print(tempState.utility)
+
+# print(ttt.utility(gameState, gameState.to_move))
+# print(ttt.utility(tempState, tempState.to_move))
+
+# board = gameState.board.copy()
+# print("********")
+# print(ttt.play_game(alphabeta_player(ttt, gameState)))
+# move_to_do = alphabeta_player(ttt, gameState)
+# print(move_to_do)
+# board.update({move_to_do: gameState.to_move})
+# print(ttt.compute_utility(board, move_to_do, gameState.to_move))
+# TODO - Implement. Compute and print the answer.
+# The answer should a single number: either -1 or 1 or 0. No punctuation. No other text.
+# Important: this is always from the perspective of X; *not* from the perspective of whose turn it is.
