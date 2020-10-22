@@ -1,0 +1,7 @@
+10000+0 records in
+10000+0 records out
+40960000000 bytes transferred in 32.078851 secs (1276853713 bytes/sec)
+
+real	0m32.430s
+user	0m0.039s
+sys	0m19.605s

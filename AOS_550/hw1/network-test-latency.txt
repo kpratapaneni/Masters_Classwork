@@ -1,0 +1,9 @@
+google.com 7.460
+web.iit.edu 27.610
+facebook.com 7.528
+linkedin.com 37.403
+instagram.com 25.726
+twitter.com 39.617
+www.quora.com 7.507
+youtube.com 7.505
+www.walmart.com 27.676
